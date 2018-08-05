@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   
+ >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/d2_et1"
+        android:layout_alignParentRight="true"
+        android:text="    "
+        android:textColor="#DAA520"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/d3_et2"
+        android:layout_alignBottom="@+id/d3_et2"
+        android:layout_alignParentRight="true"
+        android:text="    "
+        android:textColor="#DAA520"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/TextView03"
+        android:text="          "
+        android:textColor="#DAA520"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/d3_bt1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:text="       "
+        android:textColor="#DAA520"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/d3_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/d3_et2"
+        android:layout_alignBottom="@+id/d3_et2"
+        android:layout_alignParentLeft="true"
+        android:text="  "
+        android:textColor="#DAA520"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/d3_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:layout_marginTop="21dp"
+        android:text="  职位："
+        android:textColor="#DAA520"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/d2_et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/d3_tv1"
+        android:layout_toLeftOf="@+id/TextView01"
+        android:layout_toRightOf="@+id/d3_tv1"
+        android:ems="10"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/d5_bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d2_et1"
+        android:layout_marginTop="62dp"
+        android:layout_toRightOf="@+id/TextView03"
+        android:text="确定" />
+
+    <Button
+        android:id="@+id/d5_bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/d5_bt1"
+        android:layout_alignBottom="@+id/d5_bt1"
+        android:layout_toRightOf="@+id/TextView04"
+        android:text="取消" />
+
+</RelativeLayout>

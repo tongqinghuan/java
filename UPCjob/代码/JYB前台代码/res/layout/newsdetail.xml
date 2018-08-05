@@ -1,0 +1,27 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/news"   
+ >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="71dp"
+        android:text="TextView"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        android:layout_x="7dp"
+        android:layout_y="141dp"
+        android:text="TextView" />
+
+</AbsoluteLayout>
+

@@ -29,6 +29,7 @@ public class TypeTest {
 		Method[] methods_public =cl.getMethods();
 		for(Method m : methods_public) {
             System.out.println(m);
+            m.invoke(obj, args);
         }
 		Constructor<?>[] publicConstructors = cl.getConstructors();
         for(Constructor<?> c : publicConstructors) {

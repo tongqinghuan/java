@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sign</servlet-name>
+    <servlet-class>ccc.sign</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jobadd</servlet-name>
+    <servlet-class>jobadd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>campus</servlet-name>
+    <servlet-class>ccc.campus</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>information</servlet-name>
+    <servlet-class>ccc.information</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>xuanzhong</servlet-name>
+    <servlet-class>ccc.xuanzhong</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>denglu</servlet-name>
+    <servlet-class>ccc.denglu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>register</servlet-name>
+    <servlet-class>ccc.register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>job_add</servlet-name>
+    <servlet-class>ccc.job_add</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>feedback</servlet-name>
+    <servlet-class>ccc.feedback</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>ccc.login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registerservlet</servlet-name>
+    <servlet-class>ccc.registerservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getjobinf</servlet-name>
+    <servlet-class>ccc.getjobinf</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tttt</servlet-name>
+    <servlet-class>ccc.tttt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getjobserv</servlet-name>
+    <servlet-class>ccc.getjobserv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pollgetjobserv</servlet-name>
+    <servlet-class>ccc.pollgetjobserv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Xuanjiang</servlet-name>
+    <servlet-class>ccc.Xuanjiang</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>servlatenew</servlet-name>
+    <servlet-class>ccc.servlatenew</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePwd</servlet-name>
+    <servlet-class>ccc.ChangePwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Profession_zixun</servlet-name>
+    <servlet-class>ccc.Profession_zixun</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>sign</servlet-name>
+    <url-pattern>/servlet/sign</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jobadd</servlet-name>
+    <url-pattern>/servlet/jobadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>campus</servlet-name>
+    <url-pattern>/servlet/campus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>information</servlet-name>
+    <url-pattern>/servlet/information</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>xuanzhong</servlet-name>
+    <url-pattern>/servlet/xuanzhong</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>denglu</servlet-name>
+    <url-pattern>/servlet/denglu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/servlet/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>job_add</servlet-name>
+    <url-pattern>/servlet/job_add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>feedback</servlet-name>
+    <url-pattern>/servlet/feedback</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerservlet</servlet-name>
+    <url-pattern>/servlet/registerservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getjobinf</servlet-name>
+    <url-pattern>/servlet/getjobinf</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tttt</servlet-name>
+    <url-pattern>/servlet/tttt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getjobserv</servlet-name>
+    <url-pattern>/servlet/getjobserv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pollgetjobserv</servlet-name>
+    <url-pattern>/servlet/pollgetjobserv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Xuanjiang</servlet-name>
+    <url-pattern>/servlet/Xuanjiang</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servlatenew</servlet-name>
+    <url-pattern>/servlet/servlatenew</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePwd</servlet-name>
+    <url-pattern>/servlet/ChangePwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Profession_zixun</servlet-name>
+    <url-pattern>/servlet/Profession_zixun</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

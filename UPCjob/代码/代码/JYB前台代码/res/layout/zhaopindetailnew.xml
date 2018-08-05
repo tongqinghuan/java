@@ -1,0 +1,187 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/zhaopin"   
+ >
+
+  
+
+  
+
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="180dp"
+        android:text="地址:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="155dp"
+        android:text="公司:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="230dp"
+        android:text="学历:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="205dp"
+        android:text="性质:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="165dp"
+        android:layout_y="230dp"
+        android:text="行业:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_x="165dp"
+        android:layout_y="205dp"
+        android:text="规模:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="255dp"
+        android:text="需求人数:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="280dp"
+        android:text="发布时间:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="155dp"
+        android:text="公司:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="180dp"
+        android:text="公司:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/xingzhi"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="205dp"
+        android:text="公司:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/degree"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="230dp"
+        android:text="公司:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/guimo"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="205dp"
+        android:text="公司:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/hangye"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="230dp"
+        android:text="公司:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/numb"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="255dp"
+        android:text="公司:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="58dp"
+        android:layout_y="70dp"
+        android:text="TextView"
+        android:textColor="#999999"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="280dp"
+        android:text="公司:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="281dp"
+        android:layout_height="151dp"
+        android:layout_x="16dp"
+        android:layout_y="327dp"
+        android:text="TextView"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/salar"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_x="58dp"
+        android:layout_y="119dp"
+        android:text="TextView"
+        android:textColor="#999999"
+        android:textSize="16dp" />
+
+</AbsoluteLayout>

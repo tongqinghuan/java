@@ -1,0 +1,23 @@
+#Sun Jan 25 16:03:39 CST 2015
+myeclipseTomcatServer.job.contextRoot=/job
+myeclipseTomcatServer.job.isDeployed=true
+tomcat6Server.job.deployIsOverProject=false
+myeclipseTomcatServer.job.shouldBackup=false
+eclipse.preferences.version=1
+tomcat6Server.job.shouldBackup=true
+tomcat6Server.job.earProjectName=
+tomcat6Server.job.deploymentPath=F\:\\Program Files (x86)\\Apache Software Foundation\\Tomcat 6.0\\webapps\\job
+myeclipseTomcatServer.job.deployIsOverProject=false
+myeclipseTomcatServer.job.altContextRoot=/job
+myeclipseTomcatServer.job.deploymentPath=F\:\\SEVER\\.metadata\\.plugins\\com.genuitec.eclipse.easie.tomcat.myeclipse\\tomcat\\webapps\\job
+tomcat6Server.job.isDeployed=true
+myeclipseTomcatServer.job.isUptoDate=true
+tomcat6Server.job.shouldOverwrite=false
+myeclipseTomcatServer.job.type=WebDeployment
+tomcat6Server.job.isUptoDate=true
+myeclipseTomcatServer.job.shouldOverwrite=true
+myeclipseTomcatServer.job.isExploded=true
+tomcat6Server.job.isExploded=true
+tomcat6Server.job.type=WebDeployment
+myeclipseTomcatServer.job.earProjectName=
+tomcat6Server.job.contextRoot=/job
